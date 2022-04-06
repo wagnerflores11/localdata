@@ -5,7 +5,8 @@ const router = express.Router()
 const contentControllers = require('./controllers/contentControllers');
 
 
-router.post('/', contentControllers.create )
+router.get('/', contentControllers.get )
+router.post('/create', contentControllers.create )
 
 
 

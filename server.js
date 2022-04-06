@@ -20,5 +20,5 @@ app.use(cors());
 app.use(express.json())
 
 app.listen(port, function(){
-    console.log('Server start' + port)
+    console.log('Server start ' + port)
 })
